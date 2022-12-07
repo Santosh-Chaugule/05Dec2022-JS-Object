@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lecture 52-JavaScript Data Types</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style></style>
+    <style></style>
+    <script src="script.js"></script>
+    <!-- <script>We can use multiple script tag in one html File</script> -->
+    <script>
+      let student2 = {
+        name: "Yogesh",
+        surname: "Gaikwad",
+      };
+      window.alert("Hello " + student2.name); //function
+    </script>
+  </head>
+  <body>
+    <h1>JS data types</h1>
+
+    <ol>
+      <li>Number1/2.3/4.0000</li>
+      <li>String""/''/``</li>
+      <li>Object{}</li>
+    </ol>
+    <div class="mydiv"></div>
+
+    <!-- <script src=""></script> -->
+    <script>
+      //ES6=2015,let
+
+      let student3 = {
+        // property:value
+        name: `Onkar`,
+        surname: `Kadam`,
+        mobNo: 33782438724,
+      };
+      //3rd way innerHTML
+      document.querySelector(".mydiv").innerHTML = "Helllo " + student3.name;
+    </script>
+    <script>
+      //var 1995,(2015 ES6)--->let,const
+      const student4 = {
+        name: "Shekhar",
+        surname: "Shinde",
+      };
+      //this is 4th way to see the output
+
+      //document.write
+
+      document.write("<div>" + student4.name + "</div>");
+    </script>
+  </body>
+</html>
